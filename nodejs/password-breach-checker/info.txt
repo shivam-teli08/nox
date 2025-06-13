@@ -1,0 +1,38 @@
+📌 Project Summary – Email Breach Checker (Node.js)
+
+✅ Objective
+
+A simple Node.js tool to check if a user's email has appeared in known data breaches, using local mock data.
+🧩 Problem Statement
+
+Most users don’t know if their emails are compromised. Existing tools often require internet, API keys, or paid access. This tool solves that problem locally and offline.
+
+⚙️ Tech Used
+
+🟢 Node.js
+📤 `readline` (for CLI input)
+🌐 `http` (basic server example)
+📁 Local mock data (`require()` from a JS file)
+
+---
+
+ 🔧 Features
+
+✉️ Asks for user email via CLI
+📂 Checks against local mock data
+⚠️ Shows breached platforms and dates
+✅ Shuts down server after response
+
+
+🔑 APIs like HaveIBeenPwned need a paid API key
+📡 Internet not required for this local tool
+💸 Free and simple for learning Node.js
+🧠 Focused on logic, not integration
+
+
+ 🚀 Possible Next Steps
+
+🖥️ Add a frontend for user input
+🔗 Convert it into an API endpoint
+🌍 Use real breach-checking API
+🛢️ Store breach data in a database
